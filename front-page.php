@@ -74,31 +74,6 @@
         </div>
     </section>
 
-
-
-    <section>
-        <div class="container-fluid">
-            <div class="row d-flex flex-wrap justify-content-center align-items-center specs text-center">
-                <div class="spec-item flex-fill">
-                    <div class="spec-title">300 HP</div>
-                    <div class="spec-description">At the rear wheels</div>
-                </div>
-                <div class="spec-item flex-fill">
-                    <div class="spec-title">200 LB</div>
-                    <div class="spec-description">feet of torque</div>
-                </div>
-                <div class="spec-item flex-fill">
-                    <div class="spec-title">300 HP</div>
-                    <div class="spec-description">At the rear wheels</div>
-                </div>
-                <div class="spec-item flex-fill">
-                    <div class="spec-title">200 LB</div>
-                    <div class="spec-description">feet of torque</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section id="logos" class="bg--gray py-4">
         <div class="d-flex justify-content-center flex-wrap">
             <div class="px-3">
