@@ -1,0 +1,106 @@
+.navbar-custom {
+    background-color: $dark-blue;
+    ul {
+        li:before {
+            content: none;
+        }
+    }
+
+    // LOGO
+    .custom-logo-link {
+        max-width: 225px;
+        .custom-logo {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    // MENU
+    #primary-menu-wrap{
+        margin-top: 15px;
+    }
+    .navbar-toggler{
+        color: $white;
+    }
+    .navbar-nav {
+        font-size: 1.3rem;
+        font-weight: 300;
+        .nav-item {
+            padding: 5px 0;
+            .nav-link {
+                color: $white;
+                padding-left: 0;
+                padding-right: 0;
+                &:hover {
+                    color: $gray;
+                }
+            }
+            &.active a{
+                color: $red;
+            }
+            .dropdown-menu {
+                padding: 0;
+                margin: 0;
+                min-width: 13rem;
+                background-color: lighten($dark-blue, 10%);
+                font-size: 1.2rem;
+                border: none;
+                border-radius: 0;
+                opacity: 0;
+                transition: ease-in-out .4s;
+                a {
+                    padding-left: 25px;
+                }
+                .active a{
+                    border-bottom: none;
+                }
+            }
+            &.show .dropdown-menu{
+                opacity: 1;
+            }
+            .dropdown-toggle::after {
+                border: none;
+                font-family: 'Font Awesome 5 Free';
+                content: "\f054";
+                font-size: .5rem;
+                font-weight: 900;
+                position: absolute;
+                margin-left: 5px;
+                transition: ease-in-out .1s;
+            }
+            &.show .dropdown-toggle::after {
+                transform: rotate(90deg);
+            }
+        }
+        .nav-item:not(:last-child) {
+            border-bottom: 1px solid lighten($dark-blue, 15%);
+        }
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    .navbar-custom {
+        .navbar-nav {
+            .nav-item {
+                padding: 5px 0;
+                margin-left: 35px;
+                margin-right:15px;
+                .dropdown-menu{
+                    margin-top: 20px;
+                    display: block;
+                    .nav-item {
+                        margin: 0;
+                    }
+                }
+            }
+            .nav-item:not(:last-child) {
+                border-bottom: none;
+            }
+            .active a{
+                border-bottom: 1px solid $red;
+            }
+
+        }
+    }
+}

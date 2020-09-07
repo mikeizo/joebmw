@@ -1,0 +1,19 @@
+$black: #181818;
+$white: #FFFFFF;
+$gray: #e3e3e3;
+$dark-blue: #13232a;
+$red: #d33d28;
+
+.text--darkblue {
+	color: $dark-blue;
+}
+.text--red {
+	color: $red;
+}
+
+.bg--gray {
+	background-color: $gray;
+}
+.bg--darkblue {
+	background-color: $dark-blue;
+}
