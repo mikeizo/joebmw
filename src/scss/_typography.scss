@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Hind', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 34px;
+    color: $black;
+}
+
+h1,h2,h3,h4{
+	font-weight: 300;
+}
+
+h1 { font-size: 4rem; }
+h2 { font-size: 3rem; }
+h3 { font-size: 2rem; }
+h4 { font-size: 1.5rem; }
+h5 { font-size: 1rem; }
+h6 { font-size: .75rem; }

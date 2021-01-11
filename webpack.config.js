@@ -1,13 +1,13 @@
 const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-//const CopyWebpackPlugin = require('copy-webpack-plugin');
-//const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const CopyPlugin = require('copy-webpack-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 
 module.exports = {
   context: __dirname,
   entry: {
-    frontend: ['./index.js', './assets/scss/style.scss']
+    frontend: ['./src/index.js', './src/scss/style.scss']
   },
   output: {
     path: path.resolve(__dirname, './assets'),
@@ -54,9 +54,14 @@ module.exports = {
     ]
   },
   plugins: [
-    //new CleanWebpackPlugin(),
+    new CleanWebpackPlugin(),
     new MiniCssExtractPlugin({
       filename: 'css/[name].css'
+    }),
+    new CopyPlugin({
+      patterns: [
+        { from: "src/img", to: "img" },
+      ],
     }),
     new BrowserSyncPlugin({
       files: '**/*.php',
