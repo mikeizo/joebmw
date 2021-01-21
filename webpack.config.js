@@ -1,8 +1,18 @@
 const path = require('path');
+const glob = require('glob');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+//const PurgeCSSPlugin = require('purgecss-webpack-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
+
+/*
+function collectSafelist() {
+  return {
+    standard: ['active', 'current-menu-item', /^custom-/, 'dropdown', /^dropdown-/, /^nav-/, 'description']
+  }
+}
+*/
 
 module.exports = {
   context: __dirname,
@@ -63,6 +73,12 @@ module.exports = {
         { from: "src/img", to: "img" },
       ],
     }),
+    /*
+    new PurgeCSSPlugin({
+      paths: glob.sync('***',  { nodir: true }),
+      safelist: collectSafelist
+    }),
+    */
     new BrowserSyncPlugin({
       files: '**/*.php',
       proxy: 'http://dev.joebmw'

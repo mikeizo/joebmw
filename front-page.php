@@ -1,28 +1,45 @@
 <?php get_header(); ?>
 
     <section class="home-wrapper">
-        <div class="position-relative overflow-hidden text-center">
-            <div class="intro col-md-9 p-md-5 mx-auto my-5">
-                <h1 data-aos="fade-down" data-aos-delay="10">Welcome to <span class="text--red">Zeppieri</span> Motorsport</h1>
-                <h4 data-aos="fade-down" data-aos-delay="0">Customized for peak performance </h4>
-                <img class="img-fluid" data-aos="fade-left" data-aos-delay="0"src="<?php echo get_template_directory_uri();?>/assets/img/bmw-e30m3.png" alt="bmw E30 M3">
-            </div>
-            <div id="scroll" class="col-md-12 mb-5">
-                <a href="#scroll"><i class="fas fa-chevron-down fa-3x"></i></a>
-            </div>
+        <div id="slideshow" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+            <li data-target="#slideshow" data-slide-to="0" class="active"></li>
+            <li data-target="#slideshow" data-slide-to="1"></li>
+            <li data-target="#slideshow" data-slide-to="2"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+
+            <div class="carousel-item active" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/img/slide1.png)"></div>
+            <div class="carousel-item" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/img/slide4.jpg)"></div>
+            <div class="carousel-item" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/img/slide2.jpg)"></div>
+            <div class="carousel-item" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/img/slide3.jpg)"></div>
+        </div>
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#slideshow" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#slideshow" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
         </div>
     </section>
+
+
+
 
     <section id="who">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6 offset-md-1 pt-5 px-5 mb-5" data-aos="fade-right">
-                    <h3>Who We Are</h3>
-                    <p>Our mission is to provide our customers with a complete turnkey bespoke built Zeppieri Motorsport E30 M3. Utilizing our in-house engineering and fabrication talent we give the standard E30 M3 a renewed, rebuilt, and re-engineered purpose.</p>
+                    <h2 class="mb-5">Who We Are</h2>
+                    <p>Our mission is to provide our customers with a complete turnkey bespoke built Zeppieri Motorsport E30 M3. Utilizing our in-house engineering and fabrication talent we give the standard E30 M3 a renewed, rebuilt, and re-engineered purpose, that is custom tailored to your desires.</p>
                     <a href="" class="btn btn-red">Learn More</a>
                 </div>
                 <div class="col-md-5 px-0 mb-5 mb-md-0" data-aos="fade">
-                   <img class="img-cover" src="<?php echo get_template_directory_uri();?>/assets/img/bmw-325is.jpg" alt="bmw 325 IS">
+                   <img class="img-cover" src="<?php echo get_template_directory_uri();?>/assets/img/bmw-e30-1.jpg" alt="BMW e30">
                 </div>
             </div><!-- /.row -->
         </div><!-- /.container-fluid -->
@@ -32,8 +49,10 @@
         <div class="container">
             <div class="row px-4 px-md-0">
                 <div class="col-md-12 my-3" data-aos="fade">
-                    <h2 class="text-center display-4 mb-5">Vehicles</h2>
-                    <hr>
+                    <h2 class="text-center mb-5">What we Offer</h2>
+                    <p>We work with our clients to custom tailor each build to their desires and wishes. However, the decision making can be dauting for some, that is why we offer 2 build packages. Both packages include full disassembly, concourse paint, reassembly of the chassis, rebuilt suspension, engine, drivetrain, brakes, interior as well as all other major components. In addition to these packages, we can offer custom builds and options of your choice. The final product is a fully restored E30 M3, built to the client’s specifications.</p>
+                    <p>The main differences between the two packages are shown below</p>
+                    <hr class="my-5">
                 </div>
                 <div class="col-md-12" data-aos="fade-right">
                     <div class="row">
@@ -41,10 +60,15 @@
                             <img class="img-fluid" src="<?php echo get_template_directory_uri();?>/assets/img/bmw-325is.jpg" alt="bmw 325 IS">
                         </div>
                         <div class="col-md-5">
-                            <h3 class="font-weight-bold mt-4 mt-md-0">High end level – called XXX </h3>
+                            <h3 class="font-weight-boldmt-4 mt-md-0">Classic Sport</h3>
+                            <h4>(starting at $185,000)</h4>
                             <ul class="list">
-                                <li>2.5-liter high compression naturally aspirated S14</li>
-                                <li>300<strong>WHP</strong></li>
+                                <li>2.5-liter high compression naturally aspirated S14 – 300WHP</li>
+                                <li>Premium coil-over suspension system and sway bars</li>
+                                <li>Upgraded brake system</li>
+                                <li>Upgraded Aero package</li>
+                                <li>Premium interior with Recaro seats and leather trimmed dashboard and console</li>
+
                             </ul>
                         </div>
                         <div class="col-md-3 text-right">
@@ -59,10 +83,14 @@
                             <img class="img-fluid" src="<?php echo get_template_directory_uri();?>/assets/img/bmw-325is.jpg" alt="bmw 325 IS">
                         </div>
                         <div class="col-md-5">
-                            <h3 class="font-weight-bold mt-4 mt-md-0">Entry Level – Called XXX</h3>
+                            <h3 class="font-weight-bold mt-4 mt-md-0">Classic</h3>
+                            <h4>(starting at $150,000)</h4>
                             <ul class="list">
-                                <li>2.5-liter naturally aspirated S14</li>
-                                <li>225<strong>WHP</strong></li>
+                                <li>2.5-liter naturally aspirated S14 – 225WHP</li>
+                                <li>Entry level coil-over system with factory sway bars</li>
+                                <li>Factory rebuilt brake system</li>
+                                <li>Factory rebuilt interior</li>
+
                             </ul>
                         </div>
                         <div class="col-md-3 text-right">
@@ -74,6 +102,7 @@
         </div>
     </section>
 
+    <!--
     <section id="logos" class="bg--gray py-4">
         <div class="d-flex justify-content-center flex-wrap">
             <div class="px-3">
@@ -96,6 +125,7 @@
             </div>
         </div>
     </section>
+    -->
 
     <section class="parallax">
         <div class="container-fluid">
@@ -114,7 +144,5 @@
             </div><!-- /.row -->
         </div><!-- /.container-fluid -->
     </section>
-
-
 
 <?php get_footer(); ?>

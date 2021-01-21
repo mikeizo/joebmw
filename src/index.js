@@ -1,8 +1,6 @@
 import 'bootstrap';
 import AOS from 'aos';
-//import $ from 'jquery';
 import './js/app';
-
 
 AOS.init({
   offset: 200, // offset (in px) from the original trigger point
