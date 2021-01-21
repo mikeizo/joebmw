@@ -11,7 +11,6 @@
 
         <!-- The slideshow -->
         <div class="carousel-inner">
-
             <div class="carousel-item active" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/img/slide1.png)"></div>
             <div class="carousel-item" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/img/slide4.jpg)"></div>
             <div class="carousel-item" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/img/slide2.jpg)"></div>
@@ -27,16 +26,13 @@
         </div>
     </section>
 
-
-
-
     <section id="who">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6 offset-md-1 pt-5 px-5 mb-5" data-aos="fade-right">
                     <h2 class="mb-5">Who We Are</h2>
                     <p>Our mission is to provide our customers with a complete turnkey bespoke built Zeppieri Motorsport E30 M3. Utilizing our in-house engineering and fabrication talent we give the standard E30 M3 a renewed, rebuilt, and re-engineered purpose, that is custom tailored to your desires.</p>
-                    <a href="" class="btn btn-red">Learn More</a>
+                    <a href="/about-us" class="btn btn-red">Learn More</a>
                 </div>
                 <div class="col-md-5 px-0 mb-5 mb-md-0" data-aos="fade">
                    <img class="img-cover" src="<?php echo get_template_directory_uri();?>/assets/img/bmw-e30-1.jpg" alt="BMW e30">
@@ -57,7 +53,7 @@
                 <div class="col-md-12" data-aos="fade-right">
                     <div class="row">
                         <div class="col-md-4 vehicle-image">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri();?>/assets/img/bmw-325is.jpg" alt="bmw 325 IS">
+                            <img class="img-fluid" src="<?php echo get_template_directory_uri();?>/assets/img/bmw-classic-sport.jpg" alt="bmw classic sport">
                         </div>
                         <div class="col-md-5">
                             <h3 class="font-weight-boldmt-4 mt-md-0">Classic Sport</h3>
@@ -72,7 +68,7 @@
                             </ul>
                         </div>
                         <div class="col-md-3 text-right">
-                            <a class="btn btn-transparent" href="#">Get Started</a>
+                            <a class="btn btn-transparent" href="/classic-sport">Get Started</a>
                         </div>
                     </div>
                 </div>
@@ -80,7 +76,7 @@
                 <div class="col-md-12" data-aos="fade-right">
                     <div class="row">
                         <div class="col-md-4 vehicle-image">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri();?>/assets/img/bmw-325is.jpg" alt="bmw 325 IS">
+                            <img class="img-fluid" src="<?php echo get_template_directory_uri();?>/assets/img/bmw-classic.jpg" alt="bmw classic">
                         </div>
                         <div class="col-md-5">
                             <h3 class="font-weight-bold mt-4 mt-md-0">Classic</h3>
@@ -94,7 +90,7 @@
                             </ul>
                         </div>
                         <div class="col-md-3 text-right">
-                            <a class="btn btn-transparent" href="#">Get Started</a>
+                            <a class="btn btn-transparent" href="/classic">Get Started</a>
                         </div>
                     </div>
                 </div>
