@@ -46,7 +46,7 @@ add_action( 'after_setup_theme', 'zeppieri_setup' );
  */
 function zeppieri_scripts() {
     if(!is_admin()) {
-        wp_deregister_script('jquery');
+        //wp_deregister_script('jquery');
     }
     wp_enqueue_style( 'zeppieri-style', get_template_directory_uri() . '/assets/css/frontend.css', array(), 1.0, 'all' );
     wp_enqueue_script('zeppieri-scripts', get_template_directory_uri() . '/assets/js/frontend.js', array(), 1.0, true);

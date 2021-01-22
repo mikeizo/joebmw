@@ -32,7 +32,7 @@
                 <div class="col-md-6 offset-md-1 pt-5 px-5 mb-5" data-aos="fade-right">
                     <h2 class="mb-5">Who We Are</h2>
                     <p>Our mission is to provide our customers with a complete turnkey bespoke built Zeppieri Motorsport E30 M3. Utilizing our in-house engineering and fabrication talent we give the standard E30 M3 a renewed, rebuilt, and re-engineered purpose, that is custom tailored to your desires.</p>
-                    <a href="/about-us" class="btn btn-red">Learn More</a>
+                    <a href="<?php echo get_site_url(); ?>/about-us" class="btn btn-red">Learn More</a>
                 </div>
                 <div class="col-md-5 px-0 mb-5 mb-md-0" data-aos="fade">
                    <img class="img-cover" src="<?php echo get_template_directory_uri();?>/assets/img/bmw-e30-1.jpg" alt="BMW e30">
@@ -68,7 +68,7 @@
                             </ul>
                         </div>
                         <div class="col-md-3 text-right">
-                            <a class="btn btn-transparent" href="/classic-sport">Get Started</a>
+                            <a class="btn btn-transparent" href="<?php echo get_site_url(); ?>/classic-sport">Get Started</a>
                         </div>
                     </div>
                 </div>
@@ -90,7 +90,7 @@
                             </ul>
                         </div>
                         <div class="col-md-3 text-right">
-                            <a class="btn btn-transparent" href="/classic">Get Started</a>
+                            <a class="btn btn-transparent" href="<?php echo get_site_url(); ?>/classic">Get Started</a>
                         </div>
                     </div>
                 </div>
