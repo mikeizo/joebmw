@@ -12,7 +12,7 @@
 
         <!-- The slideshow -->
         <div class="carousel-inner">
-            <div class="carousel-item active" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/img/slide1.png)"></div>
+            <div class="carousel-item active" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/img/slide1.jpg)"></div>
             <div class="carousel-item" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/img/slide4.jpg)"></div>
             <div class="carousel-item" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/img/slide2.jpg)"></div>
             <div class="carousel-item" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/img/slide3.jpg)"></div>
@@ -36,7 +36,7 @@
                     <a href="<?php echo get_site_url(); ?>/about-us" class="btn btn-red">Learn More</a>
                 </div>
                 <div class="col-md-5 px-0 mb-5 mb-md-0" data-aos="fade">
-                   <img class="img-cover" src="<?php echo get_template_directory_uri();?>/assets/img/bmw-e30-1.jpg" alt="BMW e30">
+                   <img class="img-cover" src="<?php echo get_template_directory_uri();?>/assets/img/about.jpg" alt="BMW e30">
                 </div>
             </div><!-- /.row -->
         </div><!-- /.container-fluid -->

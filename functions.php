@@ -84,17 +84,17 @@ function zeppieri_widgets_init() {
         'after_title'   => '</h3>',
     ) );
 
-    /*
     register_sidebar( array(
-        'name'          => esc_html__( 'Footer Column 1', 'wp-bootstrap-4' ),
-        'id'            => 'footer-1',
-        'description'   => esc_html__( 'Add widgets here.', 'wp-bootstrap-4' ),
-        'before_widget' => '<section id="%1$s" class="widget wp-bp-footer-widget %2$s">',
-        'after_widget'  => '</section>',
-        'before_title'  => '<h5 class="widget-title">',
-        'after_title'   => '</h5>',
-    ) );
-
+        'name'          => esc_html__( 'Disclaimer', 'disclaimer' ),
+        'id'            => 'disclaimer',
+        'description'   => esc_html__( 'Add widgets here.', 'disclimer' ),
+        'before_widget' => '<div class="disclaimer">',
+        'after_widget'  => '</div>',
+        'before_title'  => '',
+        'after_title'   => ''
+        ) );
+        
+    /*
     register_sidebar( array(
         'name'          => esc_html__( 'Footer Column 2', 'wp-bootstrap-4' ),
         'id'            => 'footer-2',

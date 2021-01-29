@@ -35,8 +35,7 @@
         <div class="container">
             <div class="row px-4 px-md-0">
                 <div class="col-md-4">
-                    © <?php echo date("Y"); ?> Zeppieri Motorsport |
-                    <a href="<?php echo get_site_url(); ?>/disclaimer">Disclaimer</a>
+                    © <?php echo date("Y"); ?> Zeppieri Motorsport
                 </div>
                 <div class="col-md-3">
                     <a href="https://www.facebook.com/Zeppieri-Motorsport-183422138347931/" target="_blank"><i class="fab fa-facebook-square fa-4x px-2"></i></a>
@@ -46,6 +45,9 @@
                      <strong>Email:</strong> <a href="mailto:joe@zeppierimotorsport.com">joe@zeppierimotorsport.com</a><br> <strong>Phone:</strong> 917-539-4776
                 </div>
             </div><!-- .row -->
+            <?php if ( is_active_sidebar( 'disclaimer' ) ) : ?>
+                <?php dynamic_sidebar( 'disclaimer' ); ?>
+            <?php endif; ?>
         </div><!-- /.container -->
     </div>
 </footer>

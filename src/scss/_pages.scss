@@ -15,7 +15,7 @@
 }
 @media screen and (min-width: 992px) {
     .entry-header {
-        min-height: 550px;
+        min-height: 500px;
     }
 }
 
@@ -28,21 +28,5 @@
         font-size: 2rem;
         line-height: 3.5rem;
         margin-bottom: 1rem;
-    }
-}
-
-  /* CUSTOMIZE THE CAROUSEL
-  -------------------------------------------------- */
-.carousel-item  {
-    min-height: 35vh;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-
-    @media screen and (min-width: 768px) {
-        min-height: 70vh;
-    }
-    @media screen and (min-width: 1440px) {
-        min-height: 80vh;
     }
 }

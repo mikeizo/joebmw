@@ -46,7 +46,7 @@ button:focus {
 -------------------------------------------------- */
 .parallax {
   background-image: url("../img/bmw-parallax.jpg");
-  height: 400px;
+  height: 50vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -101,5 +101,21 @@ button:focus {
         .spec-description {
             font-style: italic;
         }
+    }
+}
+
+  /* CUSTOMIZE THE CAROUSEL
+  -------------------------------------------------- */
+  .carousel-item  {
+    min-height: 35vh;
+    background-repeat: no-repeat;
+    background-position: 50% 60%;
+    background-size: cover;
+
+    @media screen and (min-width: 768px) {
+        min-height: 70vh;
+    }
+    @media screen and (min-width: 1440px) {
+        min-height: 80vh;
     }
 }
