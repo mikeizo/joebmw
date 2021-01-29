@@ -37,6 +37,10 @@ a {
     }
 }
 
+strong {
+    font-weight: bold;
+}
+
 .dark {
     color: $white;
     background-color: $dark-blue;
@@ -90,6 +94,9 @@ ul {
 -------------------------------------------------- */
 footer {
     font-size: 1rem;
+    a {
+        text-decoration: underline;
+    }
     .contact-info {
         line-height: 1.5rem;
     }

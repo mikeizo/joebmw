@@ -34,14 +34,15 @@
     <div class="sub-footer dark py-5">
         <div class="container">
             <div class="row px-4 px-md-0">
-                <div class="col-md-3">
-                    © <?php echo date("Y"); ?> Zeppieri Motorsport
+                <div class="col-md-4">
+                    © <?php echo date("Y"); ?> Zeppieri Motorsport |
+                    <a href="<?php echo get_site_url(); ?>/disclaimer">Disclaimer</a>
                 </div>
                 <div class="col-md-3">
                     <a href="https://www.facebook.com/Zeppieri-Motorsport-183422138347931/" target="_blank"><i class="fab fa-facebook-square fa-4x px-2"></i></a>
                     <a href="https://www.instagram.com/zeppierimotorsport/?hl=en" target="blank"><i class="fab fa-instagram fa-4x px-2"></i></a>
                 </div>
-                <div class="col-md-6 contact-info">
+                <div class="col-md-5 contact-info">
                      <strong>Email:</strong> <a href="mailto:joe@zeppierimotorsport.com">joe@zeppierimotorsport.com</a><br> <strong>Phone:</strong> 917-539-4776
                 </div>
             </div><!-- .row -->

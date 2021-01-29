@@ -7,6 +7,7 @@
             <li data-target="#slideshow" data-slide-to="0" class="active"></li>
             <li data-target="#slideshow" data-slide-to="1"></li>
             <li data-target="#slideshow" data-slide-to="2"></li>
+            <li data-target="#slideshow" data-slide-to="3"></li>
         </ul>
 
         <!-- The slideshow -->
@@ -123,10 +124,8 @@
     </section>
     -->
 
-    <section class="parallax">
-        <div class="container-fluid">
-            <div class="row"></div><!-- /.row -->
-        </div><!-- /.container-fluid -->
+    <section class="main">
+        <div class="parallax"></div>
     </section>
 
     <section class="contact my-5">
