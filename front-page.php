@@ -48,7 +48,7 @@
                 <div class="col-md-12 my-3" data-aos="fade">
                     <h2 class="text-center mb-5">What we Offer</h2>
                     <p>We work with our clients to custom tailor each build to their desires and wishes. However, the decision making can be dauting for some, that is why we offer 2 build packages. Both packages include full disassembly, concourse paint, reassembly of the chassis, rebuilt suspension, engine, drivetrain, brakes, interior as well as all other major components. In addition to these packages, we can offer custom builds and options of your choice. The final product is a fully restored E30 M3, built to the client’s specifications.</p>
-                    <p>The main differences between the two packages are shown below</p>
+                    <p>The main differences between the two packages are shown below.</p>
                     <hr class="my-5">
                 </div>
                 <div class="col-md-12" data-aos="fade-right">
@@ -65,11 +65,10 @@
                                 <li>Upgraded brake system</li>
                                 <li>Upgraded Aero package</li>
                                 <li>Premium interior with Recaro seats and leather trimmed dashboard and console</li>
-
                             </ul>
                         </div>
                         <div class="col-md-3 text-right">
-                            <a class="btn btn-transparent" href="<?php echo get_site_url(); ?>/classic-sport">Get Started</a>
+                            <a class="btn btn-transparent" href="<?php echo get_site_url(); ?>/classic-sport">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -87,11 +86,10 @@
                                 <li>Entry level coil-over system with factory sway bars</li>
                                 <li>Factory rebuilt brake system</li>
                                 <li>Factory rebuilt interior</li>
-
                             </ul>
                         </div>
                         <div class="col-md-3 text-right">
-                            <a class="btn btn-transparent" href="<?php echo get_site_url(); ?>/classic">Get Started</a>
+                            <a class="btn btn-transparent" href="<?php echo get_site_url(); ?>/classic">Learn More</a>
                         </div>
                     </div>
                 </div>
