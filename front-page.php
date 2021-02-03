@@ -32,7 +32,7 @@
             <div class="row">
                 <div class="col-md-6 offset-md-1 pt-5 px-5 mb-5" data-aos="fade-right">
                     <h2 class="mb-5">Who We Are</h2>
-                    <p>Our mission is to provide our customers with a complete turnkey bespoke built Zeppieri Motorsport E30 M3. Utilizing our in-house engineering and fabrication talent we give the standard E30 M3 a renewed, rebuilt, and re-engineered purpose, that is custom tailored to your desires.</p>
+                    <?php echo get_option('who_we_are'); ?>
                     <a href="<?php echo get_site_url(); ?>/about-us" class="btn btn-red">Learn More</a>
                 </div>
                 <div class="col-md-5 px-0 mb-5 mb-md-0" data-aos="fade">
@@ -46,26 +46,17 @@
         <div class="container">
             <div class="row px-4 px-md-0">
                 <div class="col-md-12 my-3" data-aos="fade">
-                    <h2 class="text-center mb-5">What we Offer</h2>
-                    <p>We work with our clients to custom tailor each build to their desires and wishes. However, the decision making can be dauting for some, that is why we offer 2 build packages. Both packages include full disassembly, concourse paint, reassembly of the chassis, rebuilt suspension, engine, drivetrain, brakes, interior as well as all other major components. In addition to these packages, we can offer custom builds and options of your choice. The final product is a fully restored E30 M3, built to the client’s specifications.</p>
-                    <p>The main differences between the two packages are shown below.</p>
+                    <h2 class="text-center mb-5">What We Offer</h2>
+                    <?php echo get_option('what_we_offer'); ?>
                     <hr class="my-5">
                 </div>
                 <div class="col-md-12" data-aos="fade-right">
                     <div class="row">
                         <div class="col-md-4 vehicle-image">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri();?>/assets/img/bmw-classic-sport.jpg" alt="bmw classic sport">
+                            <img class="img-fluid" src="<?php echo get_option('classic_sport_image'); ?>" alt="bmw classic sport">
                         </div>
                         <div class="col-md-5">
-                            <h3 class="font-weight-boldmt-4 mt-md-0">Classic Sport</h3>
-                            <h4>(starting at $185,000)</h4>
-                            <ul class="list">
-                                <li>2.5-liter high compression naturally aspirated S14 – 300WHP</li>
-                                <li>Premium coil-over suspension system and sway bars</li>
-                                <li>Upgraded brake system</li>
-                                <li>Upgraded Aero package</li>
-                                <li>Premium interior with Recaro seats and leather trimmed dashboard and console</li>
-                            </ul>
+                            <?php echo get_option('classic_sport'); ?>
                         </div>
                         <div class="col-md-3 text-right">
                             <a class="btn btn-transparent" href="<?php echo get_site_url(); ?>/classic-sport">Learn More</a>
@@ -76,17 +67,10 @@
                 <div class="col-md-12" data-aos="fade-right">
                     <div class="row">
                         <div class="col-md-4 vehicle-image">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri();?>/assets/img/bmw-classic.jpg" alt="bmw classic">
+                            <img class="img-fluid" src="<?php echo get_option('classic_image'); ?>" alt="bmw classic">
                         </div>
                         <div class="col-md-5">
-                            <h3 class="font-weight-bold mt-4 mt-md-0">Classic</h3>
-                            <h4>(starting at $150,000)</h4>
-                            <ul class="list">
-                                <li>2.5-liter naturally aspirated S14 – 225WHP</li>
-                                <li>Entry level coil-over system with factory sway bars</li>
-                                <li>Factory rebuilt brake system</li>
-                                <li>Factory rebuilt interior</li>
-                            </ul>
+                            <?php echo get_option('classic'); ?>
                         </div>
                         <div class="col-md-3 text-right">
                             <a class="btn btn-transparent" href="<?php echo get_site_url(); ?>/classic">Learn More</a>

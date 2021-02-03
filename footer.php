@@ -45,9 +45,9 @@
                      <strong>Email:</strong> <a href="mailto:joe@zeppierimotorsport.com">joe@zeppierimotorsport.com</a><br> <strong>Phone:</strong> 917-539-4776
                 </div>
             </div><!-- .row -->
-            <?php if ( is_active_sidebar( 'disclaimer' ) ) : ?>
-                <?php dynamic_sidebar( 'disclaimer' ); ?>
-            <?php endif; ?>
+            <div class="disclaimer">
+                <?php echo get_option('disclaimer'); ?>
+            </div>
         </div><!-- /.container -->
     </div>
 </footer>

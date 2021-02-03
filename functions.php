@@ -84,16 +84,6 @@ function zeppieri_widgets_init() {
         'after_title'   => '</h3>',
     ) );
 
-    register_sidebar( array(
-        'name'          => esc_html__( 'Disclaimer', 'disclaimer' ),
-        'id'            => 'disclaimer',
-        'description'   => esc_html__( 'Add widgets here.', 'disclimer' ),
-        'before_widget' => '<div class="disclaimer">',
-        'after_widget'  => '</div>',
-        'before_title'  => '',
-        'after_title'   => ''
-        ) );
-        
     /*
     register_sidebar( array(
         'name'          => esc_html__( 'Footer Column 2', 'wp-bootstrap-4' ),
@@ -184,3 +174,6 @@ if ( class_exists( 'WooCommerce' ) ) {
     //require get_template_directory() . '/inc/woocommerce.php';
 }
 */
+
+// Theme Settings
+require get_template_directory() . '/inc/theme-settings.php';
