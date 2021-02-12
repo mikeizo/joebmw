@@ -149,7 +149,7 @@ function display_theme_panel_fields()
     );
     add_settings_field(
         "classic_image",
-        "Classic Sport Image",
+        "Classic Image",
         "display_classic_image_element",
         "zeppieri-options",
         "homepage_section"
