@@ -52,13 +52,13 @@
                 </div>
                 <div class="col-md-12" data-aos="fade-right">
                     <div class="row">
-                        <div class="col-md-4 vehicle-image">
+                        <div class="col-md-6 col-lg-4 vehicle-image">
                             <img class="img-fluid" src="<?php echo get_option('classic_sport_image'); ?>" alt="bmw classic sport">
                         </div>
-                        <div class="col-md-5">
+                        <div class="col-md-6 col-lg-5">
                             <?php echo get_option('classic_sport'); ?>
                         </div>
-                        <div class="col-md-3 text-right">
+                        <div class="col-md-12 col-lg-3 text-center">
                             <a class="btn btn-transparent" href="<?php echo get_site_url(); ?>/classic-sport">Learn More</a>
                         </div>
                     </div>
@@ -66,13 +66,13 @@
                 <div class="col-md-12 my-3" data-aos="fade"><hr></div>
                 <div class="col-md-12" data-aos="fade-right">
                     <div class="row">
-                        <div class="col-md-4 vehicle-image">
+                        <div class="col-md-6 col-lg-4 vehicle-image">
                             <img class="img-fluid" src="<?php echo get_option('classic_image'); ?>" alt="bmw classic">
                         </div>
-                        <div class="col-md-5">
+                        <div class="col-md-6 col-lg-5">
                             <?php echo get_option('classic'); ?>
                         </div>
-                        <div class="col-md-3 text-right">
+                        <div class="col-md-12 col-lg-3 text-center">
                             <a class="btn btn-transparent" href="<?php echo get_site_url(); ?>/classic">Learn More</a>
                         </div>
                     </div>
