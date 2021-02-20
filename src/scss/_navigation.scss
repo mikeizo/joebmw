@@ -23,10 +23,11 @@
         color: $white;
     }
     .navbar-nav {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
         font-weight: 300;
         .nav-item {
-            padding: 5px 0;
+            padding: 15px 0;
+            text-align: center;
             .nav-link {
                 color: $white;
                 padding-left: 0;
@@ -82,13 +83,14 @@
 @media screen and (min-width: 992px) {
     .navbar-custom {
         .navbar-nav {
+            font-size: 1.3rem;
             .nav-item {
                 padding: 5px 0;
                 margin-left: 35px;
                 margin-right:15px;
+                text-align: left;
                 .dropdown-menu{
                     margin-top: 25px;
-                    display: block;
                     .nav-item {
                         margin: 0;
                     }
